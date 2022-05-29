@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "697645797872",
+    "project_id": "marlin-ai",
+    "storage_bucket": "marlin-ai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697645797872:android:09c23727c3f510ad32cd35",
+        "android_client_info": {
+          "package_name": "com.example.marlinai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697645797872-6irgv5sar2gdrhoir7q43q297gu7ki3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8qsc2ojCNAgxhWGxcJ3NOGB6vvMWldds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697645797872-6irgv5sar2gdrhoir7q43q297gu7ki3f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

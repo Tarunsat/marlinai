@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#2b2b2b"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:id="@+id/item1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16sp"
+
+        >
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/leftstuff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:background="#585959"
+                android:layout_alignTop="@id/leftstuff"/>
+            <TextView
+
+
+                android:id="@+id/tripname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_weight="2"
+                android:text="Trip 1"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Start date: "
+                    android:textColor="@color/white"
+                    android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+
+
+                android:text="02/01/22 - 13/04/2022" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="End date: "
+                    android:textColor="@color/white"
+                    android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/infostuff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+
+
+                android:textColor="@color/white"
+                android:text="12 days this FY"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="info"
+                android:id="@+id/info"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+
+    <Button
+        android:id="@+id/arrow"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/leftstuff"
+        android:gravity="right"
+        android:onClick="Go"
+        android:text=">"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+
+
+
+    </RelativeLayout>
+

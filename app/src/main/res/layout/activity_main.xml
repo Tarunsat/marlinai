@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <Spinner
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        style="@style/Widget.MaterialComponents.FloatingActionButton"
+        android:spinnerMode="dropdown"
+        android:id="@+id/fyspinner"
+        android:textColor="@color/white"
+        >
+
+    </Spinner>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="13 days"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="170 days needed"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-condensed-medium"
+
+        />
+    <androidx.cardview.widget.CardView
+
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        app:cardCornerRadius="10dp"
+        android:elevation="5dp"
+        app:cardBackgroundColor="#2b2b2b"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:background="#2b2b2b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/recyler" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+
+        style="@style/Widget.MaterialComponents.FloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:text="Add trip"
+        android:onClick="add"/>
+
+
+</LinearLayout>
